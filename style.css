@@ -1,0 +1,145 @@
+body {
+  width: 1440px;
+  background-color: hsl(30, 54%, 90%);
+}
+
+#container {
+  width: 500px;
+  min-height: 1200px;
+  background-color: hsl(330, 100%, 98%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+img {
+  width: 450px;
+  margin: 25px 25px 0px 25px;
+  border-radius: 15px;
+}
+
+.recipe {
+  padding: 0px 25px 20px 25px;
+}
+
+.recipe-header {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Young Serif", serif;
+  color: hsl(24, 5%, 18%);
+}
+
+.recipe-paragraph {
+  font-size: 12px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(24, 5%, 18%);
+  margin-top: -10px;
+}
+
+/* preparation time */
+.prepTime {
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px;
+  border-radius: 15px;
+  margin: -20px 20px 0px 20px;
+}
+
+.listTime {
+  color: hsl(332, 51%, 32%);
+  font-family: "Young Serif", serif;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+ul {
+  font-size: 12px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(24, 5%, 18%);
+  font-weight: 500;
+  line-height: 2;
+}
+
+.prepIngredients {
+  padding: 20px;
+  margin: -10px 20px 0px 10px;
+}
+
+.listPrep {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-size: 20px;
+  padding-left: 1px;
+}
+
+.prepInstructions {
+  padding: 10px;
+  margin: -10px 20px 0px 10px;
+}
+
+
+ol {
+  font-size: 11px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(24, 5%, 18%);
+  line-height: 2;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+
+}
+
+hr {
+  border-top: 1px solid;
+  color: rgb(240, 234, 234);
+  margin-top: 25px;
+}
+
+.nutritionBody {
+  padding: 20px;
+  margin: -15px 20px 0px 10px;
+}
+
+.nutritionList {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.nutrition-paragraph {
+  font-size: 12px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(24, 5%, 18%);
+  padding-left: 20px;
+}
+
+.table-section {
+  width: 450px;
+  border-collapse: collapse;
+}
+
+.nutritional-data {
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(24, 5%, 18%);
+}
+
+.nutritional-value {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+  color: hsl(14, 45%, 36%);
+}
+
+.nutritional-value,
+.nutritional-data {
+  border-bottom: 1px solid rgb(240, 234, 234);
+  border-collapse: collapse;
+  padding-left: 40px;
+  padding-top: 20px;
+}
